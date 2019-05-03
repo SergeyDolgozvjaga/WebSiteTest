@@ -10,7 +10,10 @@ namespace WebsiteTest.startconditions
         [SetUp]
         public void SetUpLogin()
         {
-            driver.Navigate().GoToUrl(ConstantURL.LOGIN_PAGE);
+            driver.Navigate().GoToUrl(ConstantURL.START_PAGE);
+
+            var btnLogin = driver.FindElement(By.XPath(ConstantXPath.btnLoginStartPageXPath));
+            btnLogin.Click();
 
             var emailFieldInput = driver.FindElement(By.Id("input-email"));
             emailFieldInput.SendKeys(ConstantUserInfoUser1.E_MAIl);

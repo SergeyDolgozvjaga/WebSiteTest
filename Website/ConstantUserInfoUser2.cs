@@ -13,9 +13,9 @@ namespace Website
         public static readonly string COMPANY = "SoftServe";
         public static readonly string ADDRESS1 = "Liberty ave, 5";
         public static readonly string ADDRESS2 = "Liberty ave, 7";
-        public static readonly string CITY = "Chicago";
+        public static readonly string CITY = "Alabama";
         public static readonly string POSTCODE = "60007";
         public static readonly string COUNTRY = "United States";
-        public static readonly string REGION = "Illinois";
+        public static readonly string REGION = "Alabama";
     }
 }

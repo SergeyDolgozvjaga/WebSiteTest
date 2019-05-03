@@ -34,6 +34,7 @@ namespace WebsiteTest
 
             // Assert
             Assert.AreEqual(expectedURL, actualURL);
+            
         }
 
         [Test]
@@ -46,8 +47,8 @@ namespace WebsiteTest
             // Act
             driver.Navigate().GoToUrl(ConstantURL.LOGIN_PAGE);
 
-            var btnLoginToRegisterPage = driver.FindElement(By.XPath(ConstantXPath.btnContinueFromLoginToRegisterPage));
-            btnLoginToRegisterPage.Click();
+            var btnContinue = driver.FindElement(By.XPath(ConstantXPath.btnContinueFromLoginToRegisterPage));
+            btnContinue.Click();
 
             actualURL = driver.Url;
 

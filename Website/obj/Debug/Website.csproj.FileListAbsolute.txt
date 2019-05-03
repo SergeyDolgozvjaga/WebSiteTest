@@ -9,4 +9,3 @@ C:\Users\GIGABYTE\Desktop\WebsiteTest 2.0\Website\bin\Debug\Website.pdb
 C:\Users\GIGABYTE\Desktop\WebsiteTest 2.0\Website\obj\Debug\Website.csproj.CoreCompileInputs.cache
 C:\Users\GIGABYTE\Desktop\WebsiteTest 2.0\Website\obj\Debug\Website.exe
 C:\Users\GIGABYTE\Desktop\WebsiteTest 2.0\Website\obj\Debug\Website.pdb
-C:\Users\GIGABYTE\Desktop\WebsiteTest 2.0\Website\obj\Debug\Website.csprojAssemblyReference.cache

@@ -1,5 +1,6 @@
 ﻿using NUnit.Framework;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Support.UI;
 using Website;
 
 namespace WebsiteTest
@@ -11,16 +12,12 @@ namespace WebsiteTest
         public void From_RegisterPage_To_LoginPage_Using_LinkButton_Test()
         {
             // Arrange
-
             string expectedURL = ConstantURL.LOGIN_PAGE;
             string actualURL;
 
             // Act
-
-            // start URL
             driver.Navigate().GoToUrl(ConstantURL.REGISTER_PAGE);
 
-            // click on button 'Login page'
             var btnLoginPage = driver.FindElement(By.XPath(ConstantXPath.refbtnFromRegisterToLoginPage));
             btnLoginPage.Click();
 
@@ -34,14 +31,14 @@ namespace WebsiteTest
         public void Registration_Confirm_Test()
         {
             // Arrange
-
-            string expectedURL = ConstantURL.REGISTER_PAGE;
+            string expectedURL = ConstantURL.LOGIN_PAGE;
             string actualURL;
 
             // Act
-
-            // input data to registeration new user
-            driver.Navigate().GoToUrl(ConstantURL.REGISTER_PAGE);
+            driver.Navigate().GoToUrl(ConstantURL.START_PAGE);
+            
+            var btnRegister = driver.FindElement(By.XPath(ConstantXPath.btnRegisterStartPageXPath));
+            btnRegister.Click();
 
             var firstnameInput = driver.FindElement(By.Id("input-firstname"));
             firstnameInput.SendKeys(ConstantUserInfoUser2.FIRSTNAME);
@@ -71,13 +68,10 @@ namespace WebsiteTest
             cityInput.SendKeys(ConstantUserInfoUser2.CITY);
 
             var postcodeInput = driver.FindElement(By.Id("input-postcode"));
-            postcodeInput.SendKeys(ConstantUserInfoUser2.POSTCODE);
+            postcodeInput.SendKeys(ConstantUserInfoUser2.POSTCODE);         
 
-            var countryInput = driver.FindElement(By.Id("input-country"));
-            countryInput.SendKeys(ConstantUserInfoUser2.COUNTRY);
-
-            var zoneInput = driver.FindElement(By.Id("input-zone"));
-            zoneInput.SendKeys(ConstantUserInfoUser2.REGION);
+            SelectElement regionSelection = new SelectElement(driver.FindElement(By.Id("input-zone")));
+            regionSelection.SelectByText(ConstantUserInfoUser2.REGION);
 
             var passwordInput = driver.FindElement(By.Id("input-password"));
             passwordInput.SendKeys(ConstantUserInfoUser2.PASSWORD);
@@ -85,14 +79,19 @@ namespace WebsiteTest
             var lastnameFieldInput = driver.FindElement(By.Id("input-confirm"));
             lastnameFieldInput.SendKeys(ConstantUserInfoUser2.PASSWORD);
 
+
+            driver.FindElement(By.ClassName("pull-right")).Click();
+           
             /*
             var checkBoxInput = driver.FindElement(By.XPath(ConstantXPath.registerCheckboxValue));
             checkBoxInput.Click();
+            */
 
+            /*
             // click on button 'Continue'
             var btnContinue = driver.FindElement(By.XPath(ConstantXPath.btnContinueRegisterPage));
             btnContinue.Click();
-            */
+            */          
 
             actualURL = driver.Url;
 
