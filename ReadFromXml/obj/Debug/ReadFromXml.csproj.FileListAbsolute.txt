@@ -1,0 +1,10 @@
+E:\VisualStudioProjects\ReadFromXml\ReadFromXml\bin\Debug\ReadFromXml.exe.config
+E:\VisualStudioProjects\ReadFromXml\ReadFromXml\bin\Debug\ReadFromXml.exe
+E:\VisualStudioProjects\ReadFromXml\ReadFromXml\bin\Debug\ReadFromXml.pdb
+E:\VisualStudioProjects\ReadFromXml\ReadFromXml\obj\Debug\ReadFromXml.exe
+E:\VisualStudioProjects\ReadFromXml\ReadFromXml\obj\Debug\ReadFromXml.pdb
+E:\VisualStudioProjects\ReadFromXml\ReadFromXml\bin\Debug\wires-0.6.0-win.exe
+E:\VisualStudioProjects\ReadFromXml\ReadFromXml\bin\Debug\WebDriver.dll
+E:\VisualStudioProjects\ReadFromXml\ReadFromXml\bin\Debug\WebDriver.Support.dll
+E:\VisualStudioProjects\ReadFromXml\ReadFromXml\bin\Debug\WebDriver.xml
+E:\VisualStudioProjects\ReadFromXml\ReadFromXml\bin\Debug\WebDriver.Support.xml
