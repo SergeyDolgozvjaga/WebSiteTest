@@ -1,0 +1,28 @@
+E:\VisualStudioProjects\WebsiteTest\Website\bin\Debug\Website.exe.config
+E:\VisualStudioProjects\WebsiteTest\Website\bin\Debug\Website.exe
+E:\VisualStudioProjects\WebsiteTest\Website\bin\Debug\Website.pdb
+E:\VisualStudioProjects\WebsiteTest\Website\obj\Debug\Website.exe
+E:\VisualStudioProjects\WebsiteTest\Website\obj\Debug\Website.pdb
+C:\Users\GIGABYTE\Desktop\WebsiteTest 2.0\Website\bin\Debug\Website.exe.config
+C:\Users\GIGABYTE\Desktop\WebsiteTest 2.0\Website\bin\Debug\Website.exe
+C:\Users\GIGABYTE\Desktop\WebsiteTest 2.0\Website\bin\Debug\Website.pdb
+C:\Users\GIGABYTE\Desktop\WebsiteTest 2.0\Website\obj\Debug\Website.csproj.CoreCompileInputs.cache
+C:\Users\GIGABYTE\Desktop\WebsiteTest 2.0\Website\obj\Debug\Website.exe
+C:\Users\GIGABYTE\Desktop\WebsiteTest 2.0\Website\obj\Debug\Website.pdb
+C:\Users\GIGABYTE\Desktop\WebsiteTest 2.01\Website\bin\Debug\Website.exe.config
+C:\Users\GIGABYTE\Desktop\WebsiteTest 2.01\Website\bin\Debug\Website.exe
+C:\Users\GIGABYTE\Desktop\WebsiteTest 2.01\Website\bin\Debug\Website.pdb
+C:\Users\GIGABYTE\Desktop\WebsiteTest 2.01\Website\obj\Debug\Website.csproj.CoreCompileInputs.cache
+C:\Users\GIGABYTE\Desktop\WebsiteTest 2.01\Website\obj\Debug\Website.exe
+C:\Users\GIGABYTE\Desktop\WebsiteTest 2.01\Website\obj\Debug\Website.pdb
+C:\Users\serg\Desktop\WebsiteTest 2.01\Website\bin\Debug\Website.exe.config
+C:\Users\serg\Desktop\WebsiteTest 2.01\Website\bin\Debug\Website.exe
+C:\Users\serg\Desktop\WebsiteTest 2.01\Website\bin\Debug\Website.pdb
+C:\Users\serg\Desktop\WebsiteTest 2.01\Website\obj\Debug\Website.exe
+C:\Users\serg\Desktop\WebsiteTest 2.01\Website\obj\Debug\Website.pdb
+C:\Users\GIGABYTE\Desktop\WebsiteTest 2.02\Website\bin\Debug\Website.exe.config
+C:\Users\GIGABYTE\Desktop\WebsiteTest 2.02\Website\bin\Debug\Website.exe
+C:\Users\GIGABYTE\Desktop\WebsiteTest 2.02\Website\bin\Debug\Website.pdb
+C:\Users\GIGABYTE\Desktop\WebsiteTest 2.02\Website\obj\Debug\Website.csproj.CoreCompileInputs.cache
+C:\Users\GIGABYTE\Desktop\WebsiteTest 2.02\Website\obj\Debug\Website.exe
+C:\Users\GIGABYTE\Desktop\WebsiteTest 2.02\Website\obj\Debug\Website.pdb
